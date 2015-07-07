@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding="utf-8"?>
+<extension type="module" version="3.4" client="site" method="upgrade">
+	<name>DT Facebook Page</name>
+	<author>detalhar</author>
+	<creationDate>2015/7/7</creationDate>
+	<authorEmail>developer@detalharweb.com.br</authorEmail>
+	<authorURL>www.detalharweb.com.br</authorURL>
+	<copyright>Copyright (C) detalhar. All rights reserved</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html or see LICENSE.txt</license>
+	<version>0.1.0</version>
+	<description>Joomla module to embed easily their facebook page.</description>
+	<files>
+		<filename module="mod_dt_facebook_page">mod_dt_facebook_page.php</filename>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+		<filename>mod_dt_facebook_page.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+		<fieldset name="basic">
+			
+		</fieldset>
+
+		<fieldset name="advanced">
+			<field
+				name="layout"
+				type="modulelayout"
+				label="JFIELD_ALT_LAYOUT_LABEL"
+				description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				/>
+			<field
+				name="moduleclass_sfx"
+				type="textarea"
+				rows="3"
+				label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+				description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			
+		</fieldset>
+	</fields>
+	</config>
+</extension>
