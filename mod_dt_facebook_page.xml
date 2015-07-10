@@ -7,7 +7,7 @@
 	<authorURL>www.detalharweb.com.br</authorURL>
 	<copyright>Copyright (C) detalhar. All rights reserved</copyright>
 	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html or see LICENSE.txt</license>
-	<version>0.1.0</version>
+	<version>1.0.0</version>
 	<description>Joomla module to embed easily their facebook page.</description>
 	<files>
 		<filename module="mod_dt_facebook_page">mod_dt_facebook_page.php</filename>
@@ -44,11 +44,6 @@
 				label="MOD_DT_FACEBOOK_PAGE_HEIGHT"
 				description="MOD_DT_FACEBOOK_PAGE_HEIGHT_DESC"/>
 				
-			<!-- <field
-				type="spacer"
-				name="myspacer"
-				label="MOD_DT_FACEBOOK_PAGE_OTHERS_PARAMS"
-				/> -->
 			<field
 				name="showFriendsFace"
 				type="radio"
@@ -58,7 +53,6 @@
 				class="btn-group">
 				<option value="false">JNO</option>
 				<option value="true">JYES</option>
-				
 			</field>
 			<field
 				name="smallHeader"

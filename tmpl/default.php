@@ -4,7 +4,7 @@
 * DT Facebook Page - Joomla module to embed easily their facebook page. by detalhar - www.detalharweb.com.br
 *-------------------------------------------------------------------------------
 * @package DT Facebook Page
-* @version 0.1.0
+* @version 1.0.0
 * @author detalhar http://www.detalharweb.com.br
 * @copyright (C) 2015 detalhar. All Rights Reserved
 * @license - GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html or see LICENSE.txt
