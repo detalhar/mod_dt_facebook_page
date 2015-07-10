@@ -19,6 +19,80 @@
 	<config>
 		<fields name="params">
 		<fieldset name="basic">
+			<field 
+				name="FBPageUrl"
+				type="url"
+				label="MOD_DT_FACEBOOK_PAGE_URL"
+				description="MOD_DT_FACEBOOK_PAGE_URL_DESC"
+				default="https://www.facebook.com/detalharweb"
+				/>
+			<field
+				name="appID"
+				type="text"
+				label="MOD_DT_FACEBOOK_PAGE_APPID"
+				description="MOD_DT_FACEBOOK_PAGE_APPID_DESC"
+				/>
+			<field 
+				name="width"
+				type="text"
+				label="MOD_DT_FACEBOOK_PAGE_WIDTH"
+				description="MOD_DT_FACEBOOK_PAGE_WIDTH_DESC"
+				default="340"/>
+			<field 
+				name="height"
+				type="text"
+				label="MOD_DT_FACEBOOK_PAGE_HEIGHT"
+				description="MOD_DT_FACEBOOK_PAGE_HEIGHT_DESC"/>
+				
+			<!-- <field
+				type="spacer"
+				name="myspacer"
+				label="MOD_DT_FACEBOOK_PAGE_OTHERS_PARAMS"
+				/> -->
+			<field
+				name="showFriendsFace"
+				type="radio"
+				label="MOD_DT_FACEBOOK_PAGE_SHOW_FRIENDS_FACE"
+				description="MOD_DT_FACEBOOK_PAGE_SHOW_FRIENDS_FACE_DESC"
+				default="true"
+				class="btn-group">
+				<option value="false">JNO</option>
+				<option value="true">JYES</option>
+				
+			</field>
+			<field
+				name="smallHeader"
+				type="radio"
+				label="MOD_DT_FACEBOOK_PAGE_USE_SMALL_HEADER"
+				description="MOD_DT_FACEBOOK_PAGE_USE_SMALL_HEADER_DESC"
+				default="false"
+				class="btn-group">
+				<option value="false">JNO</option>
+				<option value="true">JYES</option>
+				
+			</field>
+			<field
+				name="hideCoverPhoto"
+				type="radio"
+				label="MOD_DT_FACEBOOK_PAGE_HIDE_COVER_PHOTO"
+				description="MOD_DT_FACEBOOK_PAGE_HIDE_COVER_PHOTO_DESC"
+				default="false"
+				class="btn-group">
+				<option value="false">JNO</option>
+				<option value="true">JYES</option>
+				
+			</field>
+			<field
+				name="showPagePosts"
+				type="radio"
+				label="MOD_DT_FACEBOOK_PAGE_SHOW_PAGE_POSTS"
+				description="MOD_DT_FACEBOOK_PAGE_SHOW_PAGE_POSTS_DESC"
+				default="false"
+				class="btn-group">
+				<option value="false">JNO</option>
+				<option value="true">JYES</option>
+				
+			</field>
 			
 		</fieldset>
 

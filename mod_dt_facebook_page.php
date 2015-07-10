@@ -20,6 +20,17 @@ defined('_JEXEC') or die('Access Restricted');
 // require_once dirname(__FILE__) . '/helper.php';
 
 $doc = JFactory::getDocument();
+$lang = JFactory::getLanguage();
+$langTag = $lang->getTag();
+$langTag = str_replace('-', '_', $langTag);
+$url = $params->get('FBPageUrl');
+$faceID = $params->get('appID');
+$width = (int)$params->get('width', 340);
+$height = (int)$params->get('height');
+$showFriendsFace = $params->get('showFriendsFace', true);
+$smallHeader = $params->get('smallHeader', false);
+$hideCoverPhoto = $params->get('hideCoverPhoto', false);
+$showPagePosts = $params->get('showPagePosts', false);
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 require JModuleHelper::getLayoutPath('mod_dt_facebook_page', $params->get('layout','default'));
