@@ -30,7 +30,7 @@ defined('_JEXEC') or die('Access Restricted');
 }
 
 ?>
-<div id="fb-root"></div>;
+<div id="fb-root"></div>
     <script>
   window.fbAsyncInit = function() {
     FB.init({
