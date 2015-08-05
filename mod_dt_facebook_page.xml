@@ -16,6 +16,9 @@
 		<filename>mod_dt_facebook_page.xml</filename>
 		<filename>index.html</filename>
 	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="DT Facebook Page Update">https://github.com/detalhar/updating-extensions/blob/master/mod_dt_facebook_page_update.xml</server>
+	</updateservers>
 	<config>
 		<fields name="params">
 		<fieldset name="basic">
