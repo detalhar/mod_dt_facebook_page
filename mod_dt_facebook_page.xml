@@ -7,7 +7,7 @@
 	<authorURL>www.detalharweb.com.br</authorURL>
 	<copyright>Copyright (C) detalhar. All rights reserved</copyright>
 	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html or see LICENSE.txt</license>
-	<version>1.0.0</version>
+	<version>1.2.0</version>
 	<description>Joomla module to embed easily their facebook page.</description>
 	<files>
 		<filename module="mod_dt_facebook_page">mod_dt_facebook_page.php</filename>
@@ -17,7 +17,7 @@
 		<filename>index.html</filename>
 	</files>
 	<updateservers>
-		<server type="extension" priority="1" name="DT Facebook Page Update">https://github.com/detalhar/updating-extensions/blob/master/mod_dt_facebook_page_update.xml</server>
+		<server type="extension" priority="1" name="DT Facebook Page Update">http://detalharweb.com.br/updating-extensions/mod_dt_facebook_page_update.xml</server>
 	</updateservers>
 	<config>
 		<fields name="params">
